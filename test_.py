@@ -12,7 +12,7 @@ DEBUG = True
 
 @pytest.fixture(scope='module')
 def tb():
-  with testbook('hw2.ipynb', execute=True, timeout=120) as tb:
+  with testbook('hw3.ipynb', execute=True, timeout=120) as tb:
     yield tb
 
     
