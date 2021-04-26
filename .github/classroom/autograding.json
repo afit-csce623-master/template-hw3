@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "hw test",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
