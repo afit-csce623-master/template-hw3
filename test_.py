@@ -192,9 +192,7 @@ def test_step_12(tb):
         complete = True
     finally:
         assert complete, 'STEP 12: not complete.'
-        
-    verify_exists(tb, 'thresholds_argmax', 12)
-    
+            
     
 def test_step_13(tb):
     try:
